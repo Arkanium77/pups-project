@@ -1,6 +1,10 @@
 # Personal Use Python Scripts
 ## About repo
 Some useful python scripts. Written for personal use, but if you need them - just take them.
+### Rules
+- One functionality = one file
+- No dependencies, just the standard library
+- A script can have args, but MUST be able to run without them. Double-click on file and it's done
 ## Script catalog
 ### folderflatter.py
 This script for \"flatting\" of folders. It's extracts all files from subfolders to the root directory, trying to avoid duplication
