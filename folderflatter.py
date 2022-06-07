@@ -1,10 +1,9 @@
 import argparse
 import os
-from distutils.util import strtobool
+from os.path import exists
 from pathlib import Path
 from shutil import copyfile as cp
 from shutil import rmtree as rm
-from os.path import exists
 
 
 def flatter(catalog: str, clean: bool):
