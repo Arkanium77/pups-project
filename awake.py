@@ -17,7 +17,7 @@ def awake(user32, key, delay: float, count: int, silent: bool):
         press_key(user32, key, delay)
         sleep(delay)
     if not silent:
-        print(datetime.now().strftime("%H:%M:%S"), ": Hey! Wake up!", sep="")
+        print(datetime.now().strftime("%H:%M:%S"), ": Wake up, Neo...", sep="")
 
 
 def check(count: int, delay: float, timespan: int):
